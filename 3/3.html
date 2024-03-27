@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form method="get" action="form.php">
+        <input type="text" name="fio" placeholder="ФИО" required>
+        <input type="tel" name="tel"  placeholder="Телефон" required>
+        <input type="email" name="email"  placeholder="email" required>
+        <input type="date" name="date" required>
+        <div><label><input type="radio" name="gender" value="male" checked required>Муж</label>
+        <label><input type="radio" name="gender" value="female" >Жен</label></div>
+        <select name="PL" multiple="multiple" required>
+            <option disabled>Любимый ЯП</option>
+            <option value="0"> C</option>
+            <option value="1" selected> C++</option>
+            <option value="2">JavaScript</option>
+            <option value="3">PHP</option>
+            <option value="4"> Python</option>
+            <option value="5"> Java</option>
+            <option value="6">Haskel</option>
+            <option value="7"> Clojure</option>
+            <option value="8"> Prolog</option>
+            <option value="9"> Scala</option>
+        </select>
+        <textarea name="bio" cols="30" rows="2" placeholder="Биография" required></textarea>
+        <label><input type="checkbox" name="checkbox" required >  Ознакомлен</label>
+        <input class="input" value="Сохранить" type="submit">
+    </form>
+</body>
+
+</html>

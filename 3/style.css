@@ -1,0 +1,32 @@
+body{
+    overflow: hidden;
+    height: 100vh;
+    background: linear-gradient(black 80%,green ) no-repeat;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: grid;
+}
+
+form{
+    row-gap: 10px;
+    justify-self: center;
+    align-self: center;
+    width:min-content ;
+    height: min-content;
+    display: grid;
+    background: rgba(255, 255, 255,0.1);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form>*{
+    background-color:white;
+    border-color: transparent;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: darkblue ;
+}
+.input{
+    background-color: green;
+}
